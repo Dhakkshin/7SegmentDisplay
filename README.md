@@ -1,2 +1,2 @@
-# 7SegementDisplay
+# 7SegmentDisplay
 Digital Design project 
