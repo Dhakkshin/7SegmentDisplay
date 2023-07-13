@@ -2,8 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create a bit stream
-bit_stream_1 = [int(i) for i in "0110000"]
-bit_stream_2 = [int(i) for i in "1111001"]
+with open("output.txt", "r") as f:
+    bits = f.read()
+    bit_stream_1 = [int(i) for i in bits[:7]]
+    bit_stream_2 = [int(i) for i in bits[7:14]]
 
 # Create the first seven segment display
 display1 = np.zeros((7, 5), dtype=int)

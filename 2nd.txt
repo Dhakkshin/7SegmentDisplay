@@ -1,0 +1,18 @@
+;
+        #10;
+        $display("segmentDigit1 = %h, segmentDigit2 = %h, decimalOutput = %d", segmentDigit1, segmentDigit2, decimalOutput);
+
+        // Open file for writing
+        file = $fopen("output.txt", "w");
+
+        // Write outputs to file
+        $fwrite(file, "%b%b", segmentDigit1, segmentDigit2);
+
+        // Close file
+        $fclose(file);
+
+        // End simulation
+        $finish;
+    end
+endmodule
+

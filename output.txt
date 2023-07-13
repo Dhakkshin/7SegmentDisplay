@@ -1,1 +1,1 @@
-segmentDigit1 = xxxxxxx, segmentDigit2 = xxxxxxx, decimalOutput =   x
+11111101111001
