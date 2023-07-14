@@ -14,6 +14,10 @@ This is a system that uses verilog and Python to emulate the working of a seven-
     iverilog -o sev-seg_tb.vpp sev-seg.v
   ```
 6. execute the output file
-  ```vvp sev-seg_tb.vpp```
-7. run the script which draws the seven segment display output
-  ```python segmentDisplay.py```
+  ```
+vvp sev-seg_tb.vpp
+```
+8. run the script which draws the seven segment display output
+  ```
+python segmentDisplay.py
+```
